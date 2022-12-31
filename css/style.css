@@ -291,12 +291,6 @@ hr{
 }
 
 
-
-
-
-
-
-
 /* リメイクの色 */
 .work_explanation_2-1-b{
   position: relative;
@@ -304,6 +298,7 @@ hr{
   color: #000000;
   font-family: "NotoSansJP", Medium;
   margin-bottom: 10px;
+  margin-right: 5px;
 }
 .work_explanation_2-1-b::before{
   content: '';/*何も入れない*/
@@ -315,15 +310,6 @@ hr{
   vertical-align: middle;
   margin-right: 5px;
 }
-
-
-
-
-
-
-
-
-
 
 .work_explanation_2-2{
   position: relative;
