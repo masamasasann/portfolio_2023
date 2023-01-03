@@ -443,9 +443,6 @@ hr{
   line-height: 1.4rem;
 }
 
-
-
-
 /* skill */
 #skill{
   height: 1155px;
@@ -1332,6 +1329,16 @@ h4{
   line-height: 1.4rem;
   text-align: center;
   }
+
+/* alone */
+.work_explanation_a{
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: -30px;
+}
+
+
 
   /* skill */
   #skill{
