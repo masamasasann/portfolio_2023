@@ -259,7 +259,7 @@ hr{
   font-size: 0.8rem;
   color: #4072b3;
   font-family: "NotoSansJP", Medium;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 .work_explanation_2-1-a::before{
   content: '';/*何も入れない*/
@@ -311,6 +311,28 @@ hr{
   margin-right: 5px;
 }
 
+/* リメイクの色2 */
+.work_explanation_2-1-d{
+  position: relative;
+  font-size: 0.8rem;
+  color: #000000;
+  font-family: "NotoSansJP", Medium;
+  margin-bottom: 38px;
+  margin-right: 5px;
+}
+.work_explanation_2-1-d::before{
+  content: '';/*何も入れない*/
+  display: inline-block;/*忘れずに！*/
+  width: 25px;/*画像の幅*/
+  height: 18px;/*画像の高さ*/
+  background-image: url(../img/design_mark7_10_10.jpg);
+  background-size: contain;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+
+
 .work_explanation_2-2{
   position: relative;
   font-size: 0.8rem;
@@ -354,7 +376,7 @@ hr{
   /* padding: 0 0 0 30px;
   line-height: 2; */
   font-family: "NotoSansJP", Medium;
-  margin-bottom: 30px;
+  margin-bottom: 39px;
 }
 
 .work_explanation_2-3-a::before{
@@ -367,6 +389,37 @@ hr{
   vertical-align: middle;
   margin-right: 10px;
 }
+
+.work_explanation_2-3-c{
+  position: relative;
+  font-size: 0.8rem;
+  color: #b36640;
+  /* padding: 0 0 0 30px;
+  line-height: 2; */
+  font-family: "NotoSansJP", Medium;
+  margin-bottom: 28px;
+}
+
+.work_explanation_2-3-c::before{
+  content: '';/*何も入れない*/
+  display: inline-block;/*忘れずに！*/
+  width: 20px;/*画像の幅*/
+  height: 20px;/*画像の高さ*/
+  background-image:  url(../img/design_mark4_22.jpg);
+  background-size: contain;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
 
 .work_explanation_2-3-b{
   position: relative;
@@ -432,7 +485,7 @@ hr{
   font-family: "NotoSansJP", Medium;
   vertical-align: top;
   line-height: 1.4rem;
-  width: 95%;
+  width: 100%;
 }
 
 .work_explanation_3_a{
@@ -445,7 +498,7 @@ hr{
 
 /* skill */
 #skill{
-  height: 1155px;
+  height: 1270px;
   margin-top: 200px;
   margin-bottom: 50px;
 }
@@ -1342,7 +1395,7 @@ h4{
 
   /* skill */
   #skill{
-    height: 1965px;
+    height: 2220px;
     margin-top: 90px;
   }
 
