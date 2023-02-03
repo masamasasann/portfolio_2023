@@ -14,6 +14,24 @@ font-family: "Helvetica Neue", Helvetica, Arial, "游ゴシック", YuGothic, "�
   text-align: center;
 }
 
+.wrapper-m {
+  width: 100%;
+  max-width: 1900px;
+  margin: 0 auto;
+  text-align: center;
+  display: inline-block;
+  margin-top: 75px;
+}
+
+
+.cp_wrraper{
+  margin: 0 auto;
+}
+
+.flex_box_work:last-child {
+  margin-bottom: 50px;
+}
+
 
 #body-inside{
   overflow-x: hidden;
@@ -82,6 +100,7 @@ h1 {
   font-family: "NotoSansJP", Medium;
 }
 
+
 hr{
   height: 0.3px;
   background-color: #e8e8e8;
@@ -102,6 +121,10 @@ hr{
   text-align: left;
   margin-top: 5px;
   width: 90%;
+}
+
+.plofile{
+  margin-top: 5px;
 }
 
 .plofile_img{
@@ -153,7 +176,7 @@ hr{
   color: #222222;
   font-size: 1.5rem;
   text-align: center;
-  margin: 50px auto 50px;
+  margin: 100px auto 0;
   font-weight: bold;
   font-family: "NotoSansJP", Medium;
 }
@@ -208,6 +231,8 @@ hr{
   margin-left: 10px;
   text-align: left;
   font-family: "NotoSansJP", Medium;
+  margin-left: 25px;
+  width: 90%;
 }
 
 .work_explanation_1{
@@ -411,16 +436,6 @@ hr{
   margin-right: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
 .work_explanation_2-3-b{
   position: relative;
   font-size: 0.8rem;
@@ -494,6 +509,11 @@ hr{
   font-family: "NotoSansJP", Medium;
   vertical-align: top;
   line-height: 1.4rem;
+}
+
+.cp_work_bottom{
+  width: 100%;
+  height: 80px;
 }
 
 /* skill */
@@ -577,7 +597,6 @@ p{
   width: 80%;
   margin: 15px 0 0 0;
   text-align: left;
-  /* font-size: 0.8rem; */
 }
 
 .flex_box_skill_small_left_clear{
@@ -651,22 +670,22 @@ h3{
 
 .inquiry_box::before{
   content: "";
-width:3px;
-border-right: 3px solid white;
-position: absolute;
-right: 500px;
-top: 0;
-bottom: 0;
+  width:3px;
+  border-right: 3px solid white;
+  position: absolute;
+  right: 500px;
+  top: 0;
+  bottom: 0;
 }
 
 .inquiry_box::after{
   content: "";
-width:3px;
-border-right: 3px solid white;
-position: absolute;
-right: -50px;
-top: 0;
-bottom: 0;
+  width:3px;
+  border-right: 3px solid white;
+  position: absolute;
+  right: -50px;
+  top: 0;
+  bottom: 0;
 }
 
 
@@ -756,7 +775,7 @@ h4{
   height: 100%;
   margin-left: -.05em;
   vertical-align: middle;
-  content: ""
+  content: "";
 }
 
 .modal-wrapper .modal-window {
@@ -821,9 +840,72 @@ h4{
 }
 
 
+/* 模写サイト */
+.Copying_w1{
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  margin-top: 70px;
+}
+
+.flex_box_m1{
+  width: 1900px;
+  display: flex;
+  width: 63%;
+  margin: 0 auto 30px;
+  justify-content: space-between;
+}
+
+.flex_box_m1-left{
+  width: 60%;
+  height: auto;   
+}
+
+.lex_box_m1-left-m1{
+  width: 70%;
+  height: auto;
+}
+
+.flex_box_m1 img {
+  width: 600px;
+  height: auto;
+}
+
+
+
+.flex_box_m1-right{
+  width: 40%;
+  height: auto;
+  margin-left: 10px;
+}
+
+
+
 /******************************************
 ******************* 調整用  ****************
 ********************************************/
+@media only screen and (min-width:479px) and (max-width:1600px) {
+/* 模写 */
+.flex_box_m1 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.flex_box_m1-left {
+  width: 100%;
+  height: auto;
+}
+
+.flex_box_m1-right {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  margin-top: 30px;
+}
+
+}
 @media only screen and (min-width:479px) and (max-width:1567px) {
 .PR1 span {
   font-size: 20px;
@@ -869,6 +951,14 @@ h4{
   }
   .PR1 {
     margin-left: 10px;
+  }
+}
+
+@media only screen and (min-width:768px) and (max-width:900px) {
+  /* 模写 */
+  .flex_box_m1 img {
+    width: 500px;
+    height: auto;
   }
 }
 
@@ -951,6 +1041,7 @@ h4{
 
   .work_link a{
     font-size: 1rem;
+    margin-bottom: 90px;
   }
   .work_sentence{
     font-size: 1rem;
@@ -1132,22 +1223,57 @@ h4{
     left: -130px;
   font-size: 1.2rem;
   }
+  /* 模写サイト */
+  .flex_box_m1 img {
+  width: 500px;
+  height: auto;
+  }
+
+  .flex_box_m1 {
+  width: 83%;
+  }
+
+  /* 模写 */
+  .flex_box_m1-right_sentence p {
+  font-size: 0.8em;
+  }
+
 }
 
+/* 調整用 */
 @media only screen and (min-width:479px) and (max-width:530px) {
 
-.PR1 span {
+  .PR1 span {
   font-size: 11px;
   line-height: 19px;
-}
-.flex_item_left_skill {
+  }
+  .flex_item_left_skill {
   width: 50%;
-}
-.flex_item_right_skill {
+  }
+  .flex_item_right_skill {
   width: 70%;
   margin-left: 1px;
+  }
+}
+
+
+@media only screen and (min-width:479px) and (max-width:590px) {
+/* 模写 */
+.flex_box_m1 img {
+  width: 430px;
+  height: auto;
 }
 }
+
+
+@media only screen and (min-width:479px) and (max-width:510px) {
+  /* 模写 */
+  .flex_box_m1 img {
+    width: 400px;
+    height: auto;
+  }
+  }
+
 
 /*-----------------------------------------------------*/
 /* スマホ用のCSS */
@@ -1281,6 +1407,10 @@ h4{
     display:none;
   }
 
+  #work-3{
+    display: block;
+  }
+
 
   .work_sentence{
     font-size: 0.8rem;
@@ -1383,13 +1513,13 @@ h4{
   text-align: center;
   }
 
-/* alone */
-.work_explanation_a{
+  /* alone */
+  .work_explanation_a{
   width: 100%;
   height: auto;
   margin-top: 30px;
   margin-bottom: -30px;
-}
+  }
 
 
 
@@ -1402,12 +1532,12 @@ h4{
 
   .flex_item_left_skill p{
   font-size: 12px;
-  margin-top: 7px;
- }
+  margin-top: -5px;
+  }
 
  .flex_item_left_skill img {
   width: 50%;
-}
+  }
 
   .flex_box_large {
     display: flex;
@@ -1420,6 +1550,7 @@ h4{
   }
   .flex_item_right_skill{
     width: 100%;
+    margin-top: 18px;
   }
 
   .flex_box_skill_small_left {
@@ -1434,7 +1565,7 @@ h4{
 
   .PR1 span{
     font-size: 14px;
-    line-height: 19px;
+    line-height: 25px;
   }
 
   .PR1 {
@@ -1443,7 +1574,7 @@ h4{
   }
 
   .flex_box_skill_small_left_clear {
-    width: 00px;
+    width: 0px;
   }
 
 
@@ -1535,6 +1666,31 @@ h4{
     margin-bottom: 15px;
     margin-top: 80px;
   }
+
+ /* 模写 */
+.flex_box_m1 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.flex_box_m1-left {
+  width: 100%;
+  height: auto;
+}
+
+.flex_box_m1-right {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  margin-top: 30px;
+}
+
+.flex_box_m1 img {
+  width: 300px;
+  height: auto;
+}
 }
 
 /*-----------------------------------------------------*/
@@ -1548,6 +1704,29 @@ h4{
 
 .flex_item_right_skill {
   width: 80%;
+}
+}
+
+
+@media screen and (max-width: 446px) {
+  .flex_box_m1 {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+/* スマホSE 375～ */
+@media screen and (max-width: 376px) {
+  .flex_box_m1 {
+    width: 80%;
+    margin: 0 auto;
+}
+  .flex_box_m1 img {
+    width: 270px;
+    height: auto;
+}
+
+.flex_box_m1-right_sentence{
+  line-height: 32px;
 }
 
 }
