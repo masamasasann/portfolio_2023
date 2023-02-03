@@ -940,6 +940,22 @@ h4{
     width: 35%;
   }
 }
+@media only screen and (min-width:479px) and (max-width:1250px){
+  .head_title1{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+  }
+
+  .head_title2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+
+}
+
+
 
 @media only screen and (min-width:479px) and (max-width:920px) {
   .PR1 span {
@@ -1414,6 +1430,7 @@ h4{
 
   .work_sentence{
     font-size: 0.8rem;
+    line-height: 27px;
   }
   .work_link a{
     font-size: 16px;
@@ -1715,7 +1732,7 @@ h4{
   }
 }
 /* スマホSE 375～ */
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 375px) {
   .flex_box_m1 {
     width: 80%;
     margin: 0 auto;
@@ -1729,4 +1746,7 @@ h4{
   line-height: 32px;
 }
 
+h1:first-child {
+margin-top: 50px;
+}
 }
