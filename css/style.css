@@ -1731,6 +1731,23 @@ h4{
     margin: 0 auto;
   }
 }
+
+/* スマホSE 414～ */
+@media screen and (max-width: 414px) {
+  .flex_item_left_skill p {
+    font-size: 12px;
+    margin-top: 6px;
+  }
+}
+
+/* スマホSE 390～ */
+@media screen and (max-width: 390px) {
+  .flex_item_left_skill p {
+    font-size: 12px;
+    margin-top: 6px;
+  }
+}
+
 /* スマホSE 375～ */
 @media screen and (max-width: 375px) {
   .flex_box_m1 {
