@@ -1549,7 +1549,7 @@ h4{
 
   .flex_item_left_skill p{
   font-size: 12px;
-  margin-top: -5px;
+  margin-top: -2px;
   }
 
  .flex_item_left_skill img {
@@ -1749,4 +1749,10 @@ h4{
 h1:first-child {
 margin-top: 50px;
 }
+
+.flex_item_left_skill p {
+  font-size: 12px;
+  margin-top: 6px;
 }
+}
+
