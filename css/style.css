@@ -320,7 +320,7 @@ hr{
 .work_explanation_2-1-b{
   position: relative;
   font-size: 0.8rem;
-  color: #000000;
+  color: #4072b3;
   font-family: "NotoSansJP", Medium;
   margin-bottom: 10px;
   margin-right: 5px;
@@ -330,7 +330,8 @@ hr{
   display: inline-block;/*忘れずに！*/
   width: 25px;/*画像の幅*/
   height: 18px;/*画像の高さ*/
-  background-image: url(../img/design_mark7_10_10.jpg);
+  background-image: url(../img/design_mark2_14.jpg);
+  background-repeat: no-repeat;
   background-size: contain;
   vertical-align: middle;
   margin-right: 5px;
@@ -340,7 +341,7 @@ hr{
 .work_explanation_2-1-d{
   position: relative;
   font-size: 0.8rem;
-  color: #000000;
+  color: #4072b3;
   font-family: "NotoSansJP", Medium;
   margin-bottom: 38px;
   margin-right: 5px;
@@ -350,7 +351,8 @@ hr{
   display: inline-block;/*忘れずに！*/
   width: 25px;/*画像の幅*/
   height: 18px;/*画像の高さ*/
-  background-image: url(../img/design_mark7_10_10.jpg);
+  background-image: url(../img/design_mark2_14.jpg);
+  background-repeat: no-repeat;
   background-size: contain;
   vertical-align: middle;
   margin-right: 5px;
